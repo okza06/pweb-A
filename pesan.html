@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pesan</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<script src="validasi_login.js"></script>
+	<script src="digital.js"></script>
+	<link rel="stylesheet" type="text/css" href="digital.css">
+</head>
+<body>
+	<div class="kotak_login">
+		<center><h2>BUKU CATATAN</h2></center>
+		<form method="post" action="catatan.php">
+			<label>Caption</label>
+			<input type="text" name="caption" class="form_login">
+			<label>Catatan</label>
+			<textarea name="catatan" class="form_login" style="width:300px"></textarea></td></tr>
+			<input type="submit" class="tombol_login" name="ok" value="SIMPAN">
+			<br/>
+			<br/>
+			<center><h4><a href="hasil.html">Lihat Catatan<h4></center>
+		</form>
+	</div>
+	<div class="digital">
+	<div class="kotak">
+		<p id="jam"></p>
+	</div>
+	<div class="kotak">
+		<p id="menit"></p>
+	</div>
+	<div class="kotak">
+		<p id="detik"></p>
+	</div>
+</body>
+</html>

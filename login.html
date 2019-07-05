@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<script src="validasi_login.js"></script>
+	<script src="digital.js"></script>
+	<link rel="stylesheet" type="text/css" href="digital.css">
+</head>
+<body>
+	<div class="kotak_login">
+		<center><h2>LOGIN AKUN</h2></center>
+		<form method="post" action="login.php">
+			<label>Username</label>
+			<input type="text" name="user" id="user" class="form_login" placeholder="Username atau email ..">
+			<label>Password</label>
+			<input type="text" name="pass" id="pass" class="form_login" placeholder="Password ..">
+			<input type="submit" onclick="kosong()" class="tombol_login" name="login" value="LOGIN">
+			<br/>
+			<br/>
+			<center><a href="daftar.html">Daftar</a></center>
+		</form>
+	</div>
+	<div class="digital">
+	<div class="kotak">
+		<p id="jam"></p>
+	</div>
+	<div class="kotak">
+		<p id="menit"></p>
+	</div>
+	<div class="kotak">
+		<p id="detik"></p>
+	</div>
+</body>
+</html>

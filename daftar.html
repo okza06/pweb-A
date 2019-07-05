@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" type="text/css" href="digital.css">
+	<script src="validasi_daftar.js"></script>
+	<script src="digital.js"></script>
+</head>
+<body>
+	<div class="kotak_login">
+		<center><h2>DAFTAR AKUN</h2></center>
+		<form method="post" action="daftar.php">
+			<label>Username</label>
+			<input type="text" id="user" name="user" class="form_login" placeholder="Masukan username ..">
+			<label>Password</label>
+			<input type="text" id="pass" name="pass" class="form_login" placeholder="Masukan password ..">
+			<label>Nama</label>
+			<input type="text" id="nama" name="nama" class="form_login" placeholder="Masukan nama ..">
+			<label>Tanggal Lahir</label>
+			<input type="date" id="t_lahir"  name="t_lahir" class="form_login">
+			<input type="submit" onclick="daftar()" class="tombol_login" name="daftar" value="DAFTAR">
+			<br/>
+			<br/>
+			<center><a href="login.html">Kembali</a></center>
+		</form>
+	</div>
+	<div class="digital">
+	<div class="kotak">
+		<p id="jam"></p>
+	</div>
+	<div class="kotak">
+		<p id="menit"></p>
+	</div>
+	<div class="kotak">
+		<p id="detik"></p>
+	</div>
+</div>
+</body>
+</html>
